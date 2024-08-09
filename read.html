@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY SPEAKING PROJECT</title>
+    <link rel="stylesheet" href="read.css">
+    <script src="read.js" defer></script>
+</head>
+<body>
+    
+    <div class="banner">
+        
+        <div class="navbar">
+            <ul>
+                <li><a href="speakpro.html"target="_self">Home</a></li>
+                <li><a href="aboutme.html"target="_self">ABOUT ME</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            
+            <p>Project by Amrita Lakshmi Sabaridas</p>
+
+            <button class="button-three" id="btn" onclick="recognition.start()">
+                Speech To Text
+            </button>
+            <div id="result" class="container">
+                <p>Text is shown here</p>
+            </div>
+            <button class="button-three" onclick="copyDivToClipboard()">
+                Copy the text
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
